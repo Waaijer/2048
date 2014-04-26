@@ -4,13 +4,14 @@ html, body {
   margin: 0;
   padding: 0;
   background: #282253;
-  color: #858e86;
+  color: #fff;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+    background-image:url("../background2.jpg");
+    margin: 80px 0; }
 
 p.learn {
   margin-top: 20px;
@@ -19,9 +20,6 @@ p.learn {
 span.tile-text {
   line-height: 1.25;
 }
-
-
-
 input {
   display: inline-block;
   background: #8f7a66;
@@ -60,7 +58,7 @@ input {
   clear: both; }
 
 h1.title {
-  color: #ad1a69;
+  color: #de8b3e;
   font-size: 55px;
   font-weight: medium;
   margin: 0;
@@ -98,7 +96,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #ad1a69;
+  background: #de8b3e;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -145,7 +143,7 @@ p {
   margin-bottom: 10px;
   line-height: 1.65; }
 
-a {
+a .visited {
   font-weight: medium;
   text-decoration: underline;
   cursor: pointer; }
@@ -211,7 +209,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #ffffff;
+  background: #de8b3e;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -440,7 +438,6 @@ hr {
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-size: 14px;
-
   }
   .tile.tile-128 .tile-inner {
     font-weight: medium;
@@ -670,7 +667,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #858e86;
+    background: #000;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -988,7 +985,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #000;
   line-height: 42px;
   cursor: pointer;
   display: block;
