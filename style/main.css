@@ -4,7 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #000;
-  color: #94a9c4;
+  color: orange;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px; }
@@ -13,7 +13,17 @@ body {
     background-image:url("../background5.png");
 
     margin: 0 0; }
+a {
+  color:orange;
+  text_decoration:bold;
+}
 
+a:visited{
+  color:#fff;
+}    
+a:hover {
+color:red;
+}
 p.learn {
   margin-top: 20px;
 }
@@ -59,10 +69,10 @@ input {
   clear: both; }
 
 h1.title {
-  color: #94a9c4;
-  font-size: 55px;
-  font-weight: medium;
-  margin: 0;
+  color: orange;
+  font-size: 200%;
+  font-weight: normal;
+  margin: 15px 0;
   display: block;
   float: left; }
 
@@ -98,13 +108,13 @@ h1.title {
   position: relative;
   display: inline-block;
   background: rgba(84,111,166,0.6);
-  padding: 15px 25px;
-  font-size: 25px;
+  padding: 15px 35px;
+  font-size: 120%;
   height: 25px;
-  line-height: 47px;
-  font-weight: bold;
+  line-height: 40px;
+  font-weight: normal;
   border-radius: 3px;
-  color: white;
+  color: orange;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -113,7 +123,7 @@ h1.title {
     top: 10px;
     left: 0;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 90%;
     line-height: 13px;
     text-align: center;
     color: #eee4da; }
@@ -121,9 +131,9 @@ h1.title {
     position: absolute;
     right: 30px;
     color: red;
-    font-size: 25px;
+    font-size: 180%;
     line-height: 25px;
-    font-weight: bold;
+    font-weight: normal;
     color: rgba(119, 110, 101, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
@@ -134,9 +144,11 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
+  color:orange;
   content: "Score"; }
 
 .best-container:after {
+  color:orange;
   content: "Best"; }
 
 p {
@@ -236,7 +248,7 @@ hr {
   -moz-animation-fill-mode: both;
   animation-fill-mode: both; }
   .game-message p {
-    font-size: 60px;
+    font-size: 300%;
     font-weight: bold;
     height: 60px;
     line-height: 60px;
@@ -402,10 +414,10 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-family: 'Source Code Pro', Courier;
-    font-size: 16px; 
+    font-size: 120%; 
     color: #354b59;} 
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/planets/2.png');
+    background: url('../tile-sets/planets/21.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -419,26 +431,26 @@ hr {
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
-    font-size: 11px;
+    font-size: 80%;
   }
   .tile.tile-16 .tile-inner {
     background: url('../tile-sets/planets/16.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
     font-weight: medium;
-    font-size: 10px;
+    font-size: 75%;
   }
   .tile.tile-32 .tile-inner {
     background: url('../tile-sets/planets/32.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    font-size: 14px;
+    font-size: 80%;
   }
   .tile.tile-64 .tile-inner {
     background: url('../tile-sets/planets/64.png');
     background-size: 100%;
     color: rgba(0,0,0,0);
-    font-size: 14px;
+    font-size: 80%;
   }
   .tile.tile-128 .tile-inner {
     font-weight: medium;
@@ -446,7 +458,7 @@ hr {
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 12px; }
+    font-size: 75%; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 12px; } }
@@ -455,7 +467,7 @@ hr {
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 14px; }
+    font-size: 80%; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 16px; } }
@@ -464,7 +476,7 @@ hr {
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 13px; }
+    font-size: 80%; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 13px; } }
@@ -473,10 +485,10 @@ hr {
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 10px; }
+    font-size: 75%; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 10px; } }
+        font-size: 75%; } }
   .tile.tile-2048 .tile-inner {
     background: url('../tile-sets/planets/2048.png');
     background-size: 100%;
@@ -485,15 +497,15 @@ hr {
     font-size: 10px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 10px; } }
+        font-size: 75%; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
     font-weight: medium;
-    font-size: 12px; }
+    font-size: 75%; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 75%; } }
 
 @-webkit-keyframes appear {
   0% {
@@ -594,7 +606,7 @@ hr {
   animation-fill-mode: backwards; }
 
 .above-game {
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 .above-game:after {
@@ -605,11 +617,11 @@ hr {
 .game-intro {
   margin-top: 5px;
   float: left;
-  line-height: 30px;
+  line-height: 22px;
   margin-bottom: 0; }
 
 .game-explanation {
-  margin-top: 50px; }
+  margin-top: 25px; }
 
 .sharing {
   margin-top: 20px;
@@ -620,7 +632,7 @@ hr {
 
 @media screen and (max-width: 520px) {
   html, body {
-    font-size: 15px; }
+    font-size: 104%; }
 
   body {
 	background-image:url("../background520.png");
@@ -628,8 +640,8 @@ hr {
     padding: 0 20px; }
 
   h1.title {
-
-    font-size: 27px;
+    color: orange;
+    font-size: 120%;
     margin-top: 15px; }
 
   .container {
@@ -695,7 +707,7 @@ hr {
     -moz-animation-fill-mode: both;
     animation-fill-mode: both; }
     .game-message p {
-      font-size: 60px;
+      font-size: 300%;
       font-weight: bold;
       height: 60px;
       line-height: 60px;
@@ -847,12 +859,12 @@ hr {
     transform: translate(202px, 202px); }
 
   .tile .tile-inner {
-    font-size: 35px; }
+    font-size: 200%; }
 
   .game-message {
     padding-top: 0; }
     .game-message p {
-      font-size: 30px !important;
+      font-size: 200% !important;
       height: 30px !important;
       line-height: 30px !important;
       margin-top: 32% !important;
@@ -943,7 +955,7 @@ hr {
       border-radius: 3px;
       line-height: 1;
       font-weight: normal;
-      font-size: 15px;
+      font-size: 90%;
       font-family: Consolas, "Liberation Mono", Courier, monospace;
       text-align: center; }
   .btc-donate:hover .address, .btc-donate .address:hover .address {
@@ -958,7 +970,7 @@ hr {
         margin-right: -150px;
         width: 300px; }
         .btc-donate .address code {
-          font-size: 13px; }
+          font-size: 85%; }
         .btc-donate .address:after {
           left: 50%;
           bottom: 2px; } }
@@ -986,15 +998,15 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   display: inline-block;
   background-color: rgba(84,111,166,0.8);
   border-radius: 3px;
-  padding: 0 20px;
+  padding: 0 10px;
   text-decoration: none;
-  color: #fff;
+  color: orange;
   line-height: 42px;
   cursor: pointer;
   display: block;
   text-align: center;
   float: right; 
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 a.retry-button, a.learn-low {
